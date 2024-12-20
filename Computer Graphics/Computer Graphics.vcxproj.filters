@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\Lab3">
+      <UniqueIdentifier>{9cbb96ad-20a3-4e3c-98ee-197f90c83b68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Lab3\Part2">
+      <UniqueIdentifier>{81def488-3fe5-4dbc-a2ae-95eee6558659}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Lab3\Part3">
+      <UniqueIdentifier>{e5597db9-d8ef-4a40-bb21-bc5598c059a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Lab3\Part4">
+      <UniqueIdentifier>{2941b22f-673b-42d1-b8d7-d2fbc2d5a65f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Computer Graphics.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Box.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Circle.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Figure.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Source.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Lab2\Loader.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Lab2\Model2D.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Lab2\Render2D.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Lab2\SourceLab2.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceLab3.cpp">
+      <Filter>Исходные файлы\Lab3</Filter>
+    </ClCompile>
+    <ClCompile Include="GLIndexBuffer.cpp">
+      <Filter>Исходные файлы\Lab3\Part2</Filter>
+    </ClCompile>
+    <ClCompile Include="GLShader.cpp">
+      <Filter>Исходные файлы\Lab3\Part2</Filter>
+    </ClCompile>
+    <ClCompile Include="GLVertexBuffer.cpp">
+      <Filter>Исходные файлы\Lab3\Part2</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceLab3.2.cpp">
+      <Filter>Исходные файлы\Lab3\Part2</Filter>
+    </ClCompile>
+    <ClCompile Include="Render3D.cpp">
+      <Filter>Исходные файлы\Lab3\Part3</Filter>
+    </ClCompile>
+    <ClCompile Include="GLModel.cpp">
+      <Filter>Исходные файлы\Lab3\Part3</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceLab3.3.cpp">
+      <Filter>Исходные файлы\Lab3\Part3</Filter>
+    </ClCompile>
+    <ClCompile Include="glad.c">
+      <Filter>Исходные файлы\Lab3</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera3D.cpp">
+      <Filter>Исходные файлы\Lab3\Part4</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceLab3.4.cpp">
+      <Filter>Исходные файлы\Lab3\Part4</Filter>
+    </ClCompile>
+    <ClCompile Include="ControlManager.cpp">
+      <Filter>Исходные файлы\Lab3\Part4</Filter>
+    </ClCompile>
+    <ClCompile Include="GLTexture.cpp">
+      <Filter>Исходные файлы\Lab3\Part4</Filter>
+    </ClCompile>
+    <ClCompile Include="stb_image.cpp">
+      <Filter>Исходные файлы\Lab3\Part4</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>Исходные файлы\Lab3\Part4</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Box.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="Circle.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="Figure.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="Lab2\AffineTransform.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Lab2\Loader.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Lab2\Model2D.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Lab2\Render2D.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Buffer.h">
+      <Filter>Исходные файлы\Lab3\Part2</Filter>
+    </ClInclude>
+    <ClInclude Include="GLIndexBuffer.h">
+      <Filter>Исходные файлы\Lab3\Part2</Filter>
+    </ClInclude>
+    <ClInclude Include="GLShader.h">
+      <Filter>Исходные файлы\Lab3\Part2</Filter>
+    </ClInclude>
+    <ClInclude Include="GLVertexBuffer.h">
+      <Filter>Исходные файлы\Lab3\Part2</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Исходные файлы\Lab3\Part2</Filter>
+    </ClInclude>
+    <ClInclude Include="Render3D.h">
+      <Filter>Исходные файлы\Lab3\Part3</Filter>
+    </ClInclude>
+    <ClInclude Include="GLModel.h">
+      <Filter>Исходные файлы\Lab3\Part3</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelLoader.h">
+      <Filter>Исходные файлы\Lab3\Part3</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera3D.h">
+      <Filter>Исходные файлы\Lab3\Part4</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>Исходные файлы\Lab3\Part4</Filter>
+    </ClInclude>
+    <ClInclude Include="GLFWWindowImpl.h">
+      <Filter>Исходные файлы\Lab3\Part4</Filter>
+    </ClInclude>
+    <ClInclude Include="Event.h">
+      <Filter>Исходные файлы\Lab3\Part4</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyEvent.h">
+      <Filter>Исходные файлы\Lab3\Part4</Filter>
+    </ClInclude>
+    <ClInclude Include="MouseEvent.h">
+      <Filter>Исходные файлы\Lab3\Part4</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowEvent.h">
+      <Filter>Исходные файлы\Lab3\Part4</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyCode.h">
+      <Filter>Исходные файлы\Lab3\Part4</Filter>
+    </ClInclude>
+    <ClInclude Include="MouseCode.h">
+      <Filter>Исходные файлы\Lab3\Part4</Filter>
+    </ClInclude>
+    <ClInclude Include="ControlManager.h">
+      <Filter>Исходные файлы\Lab3\Part4</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexData.h">
+      <Filter>Исходные файлы\Lab3\Part4</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>Исходные файлы\Lab3\Part4</Filter>
+    </ClInclude>
+    <ClInclude Include="GLTexture.h">
+      <Filter>Исходные файлы\Lab3\Part4</Filter>
+    </ClInclude>
+    <ClInclude Include="AffineTransform3D.h">
+      <Filter>Исходные файлы\Lab3\Part4</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
